@@ -8,6 +8,7 @@ void setup() {
 
 
 void loop() {
+  // for looplarını pinlerine göre değiştir
     for(int i = 2; i<=4; i++) {
        digitalWrite(i, HIGH);
        delay(100);
